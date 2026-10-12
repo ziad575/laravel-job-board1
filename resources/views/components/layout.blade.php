@@ -48,7 +48,7 @@
     </div>
 
     <!-- Announcement Bar -->
-    <div class="relative z-50 bg-gradient-to-r from-indigo-900/60 via-purple-900/60 to-indigo-900/60 border-b border-indigo-500/20 py-2 px-4 backdrop-blur-md">
+    <div class="relative z-50 bg-linear-to-r from-indigo-900/60 via-purple-900/60 to-indigo-900/60 border-b border-indigo-500/20 py-2 px-4 backdrop-blur-md">
         <div class="max-w-7xl mx-auto flex items-center justify-center gap-2 text-xs font-semibold tracking-wide text-indigo-200 text-center">
             <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-indigo-500/30 text-indigo-100 text-[10px] uppercase tracking-wider border border-indigo-400/30">
                 <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> New
@@ -67,13 +67,13 @@
                 <!-- Logo & Brand -->
                 <div class="flex items-center gap-10">
                     <a href="/" class="group flex items-center gap-3">
-                        <div class="relative flex items-center justify-center w-11 h-11 rounded-2xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-fuchsia-500 text-white shadow-lg shadow-indigo-500/30 group-hover:shadow-indigo-500/60 group-hover:scale-105 transition-all duration-300">
+                        <div class="relative flex items-center justify-center w-11 h-11 rounded-2xl bg-linear-to-tr from-indigo-600 via-indigo-500 to-fuchsia-500 text-white shadow-lg shadow-indigo-500/30 group-hover:shadow-indigo-500/60 group-hover:scale-105 transition-all duration-300">
                             <svg class="w-6 h-6 transform group-hover:rotate-6 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                             </svg>
                         </div>
                         <div>
-                            <span class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-100 to-indigo-200 bg-clip-text text-transparent">JobPulse</span>
+                            <span class="text-xl font-extrabold tracking-tight bg-linear-to-r from-white via-slate-100 to-indigo-200 bg-clip-text text-transparent">JobPulse</span>
                             <span class="block text-[10px] font-semibold uppercase tracking-widest text-indigo-400">Careers Reimagined</span>
                         </div>
                     </a>
@@ -109,14 +109,14 @@
                 <div class="flex items-center gap-3">
                     
                     <!-- Primary Call to Action -->
-                    <a href="/job" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider text-white bg-gradient-to-r from-indigo-600 via-indigo-500 to-purple-600 hover:from-indigo-500 hover:to-purple-500 shadow-lg shadow-indigo-600/30 hover:shadow-indigo-500/50 hover:-translate-y-0.5 active:translate-y-0 transition duration-200">
+                    <a href="/job" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider text-white bg-linear-to-r from-indigo-600 via-indigo-500 to-purple-600 hover:from-indigo-500 hover:to-purple-500 shadow-lg shadow-indigo-600/30 hover:shadow-indigo-500/50 hover:-translate-y-0.5 active:translate-y-0 transition duration-200">
                         <span>Post Opening</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                     </a>
 
                     <!-- User Profile Badge -->
                     <div class="flex items-center gap-2.5 pl-3 border-l border-slate-800">
-                        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-slate-800 to-slate-700 border border-slate-600/60 flex items-center justify-center font-bold text-sm text-indigo-300 shadow-md">
+                        <div class="w-10 h-10 rounded-xl bg-linear-to-tr from-slate-800 to-slate-700 border border-slate-600/60 flex items-center justify-center font-bold text-sm text-indigo-300 shadow-md">
                             {{ strtoupper(substr($name ?? 'Z', 0, 1)) }}
                         </div>
                     </div>
@@ -166,4 +166,4 @@
     </footer>
 
 </body>
-</html> 
+</html>

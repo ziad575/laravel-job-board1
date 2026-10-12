@@ -1,7 +1,7 @@
 <x-layout title="Browse Opportunities | JobHunt">
     
     <!-- Hero / Filter Banner -->
-    <div class="rounded-3xl bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 p-8 sm:p-10 text-white mb-8 shadow-xl">
+    <div class="rounded-3xl bg-linear-to-r from-slate-900 via-indigo-950 to-slate-900 p-8 sm:p-10 text-white mb-8 shadow-xl">
         <div class="max-w-2xl">
             <span class="inline-block px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-medium uppercase tracking-wider mb-4 border border-indigo-400/30">
                 Over 250+ tech positions added
